@@ -1,193 +1,218 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-  <title>Suraj Maniyar</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,‌​100italic,300,300ita‌​lic,400italic,500,50‌​0italic,700,700itali‌​c,900italic,900' rel='stylesheet' type='text/css'>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.0.0/bootstrap-social.min.css" />
-  <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<style type="text/css">
-.blinking-cursor {
-  font-weight: 200;
-  font-size: 20px;
-  color: #2E3D48;
-  -webkit-animation: 1s blink step-end infinite;
-  -moz-animation: 1s blink step-end infinite;
-  -ms-animation: 1s blink step-end infinite;
-  -o-animation: 1s blink step-end infinite;
-  animation: 1s blink step-end infinite;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-@keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: white;
-  }
-}
+  <head>
 
-@-moz-keyframes blink {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: white;
-  }
-}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-@-webkit-keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: white;
-  }
-}
+    <title>Suraj Maniyar</title>
 
-@-ms-keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: white;
-  }
-}
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-@-o-keyframes "blink" {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: white;
-  }
-}
-.navbar{
-  background-color: #302C2F !important;
-  font-size: 16px;
-}
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
-/*@media only screen and (min-width: 900px) {*/
-.navbar-fixed-top {
-  height: 35px !important;
-  min-height:10px;
-}
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
 
-body{
-  background: white;
-  color: black;
-  font-weight: 300;
-  font-family: 'Roboto', sans-serif;
-}
+  </head>
 
-.title_bar_text{
-  margin-left: 15px;
-  color: white;
-}
+  <body id="page-top">
 
-h1,h2,h3, h4{
-  font-weight: 300;
-}
-.content_heading{
-  margin-left: 5px;
-}
-.content{
-  margin-left: 30px;
-}
-.main_content{
-  margin-top: 40px;
-}
-.section_heading{
-  padding-top: 40px;
-}
-img{
-  vertical-align: middle !important;
-}
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Start Bootstrap</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-p{
-  font-size: 15px;
-}
-#publications_list li, #achievements_list li{
-  font-size: 15px;
-  font-weight: 300;
-}
+    <div class="container-fluid p-0">
 
-.contact_div{
-  margin-bottom: 30px;
-}
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Suraj
+            <span class="text-primary">Maniyar</span>
+          </h1>
+          <div class="subheading mb-5">
+            <a href="mailto:name@email.com">spmaniya@ncsu.edu</a>
+          </div>
+          <p class="mb-5">I am a graduate student at North Carolina State University specializing in Machine Learning and Computer Vision.</p>
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-.project_list{
-  margin-bottom: 20px;
-}
-.panel{
-  margin-bottom: 0px;
-}
-.navbar-right li{
-  color: white;
-}
-.about-text{
-  font-size: 18px;
-}
-.navbar{
-  background: #014f9e !important;
-  color: black;
-  border-radius: 0;
-}
-.white-text{
-  color: #fff !important;
-}
-.profile_image{
-  border-radius: 30px;
-}
-/*.intro{
-  background: url('https://ramprs.github.io/ramprs.github.io/img/ram_cvmlp.jpg') bottom  center scroll;
-  opacity: 0.9;
-  margin-top: -20px;
-  background: cover;
-}*/
-</style>
-<body>
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <ul class="nav navbar-nav">
-        <li><a class="white-text" href="#">Suraj Maniyar</a></li>
-        <li><a class="white-text" href="#about">About Me</a></li>
-        <li><a class="white-text" href="#education">Education</a></li>
-        <li><a class="white-text" href="#skills">Skills</a></li>
-        <li><a class="white-text" href="#projects">Projects</a></li>
-        <li><a class="white-text" href="#contact">Contact Me</a></li>
-        <li><a class="white-text" href="/static/docs/resume.pdf" target="_blank">Resume</a></li>
-      </ul>
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">North Carolina State University</h3>
+              <div class="subheading mb-3">Master of Science</div>
+              <div>Electrical Engineering</div>
+              <p>GPA: 3.66/4.0</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2017 - December 2018</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Veermata Jijabai Technological Institute</h3>
+              <div class="subheading mb-3">Bachelor of Technology</div>
+              <div>Electronics Engineering</div>
+              <p>GPA: 7.72/10.0</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">June 2013 - May 2017</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-5">Skills</h2>
+
+          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Keras, Tensorflow
+            </li>
+            
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Python, C++, ROS, CUDA, OpenCV, MATLAB
+            </li>
+            
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Linux, Shell scripting
+           </li>
+          </ul>
+        </div>
+
+      </section>
+
+
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+        <div class="my-auto">
+          <h2 class="mb-5">Projects</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">A Comprehensive approach to Stock Trading using Machine Learning</h3>
+              <p>This project was aimed at recommending solutions to users investing in stock market by utilizing fundamental and technical analyses. The best companies to invest in was chosen using fundamental analysis and the user's portfolio was optimized to distribute the investment in different stocks to maximize returns and reduce risks. Technical analysis was implemented separately using Neural Networks and Reinforcement Learning to suggest actions (buy, sell or hold) to the user to maximize his/her portfolio.</p>
+            </div>
+          </div>
+
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Deep Visual Attention Prediction</h3>
+              <p>In this project, I implemented a paper titled 'Deep Visual Attention Prediction' which focuses on predicting human-eye fixation on view-free scenes incorporating multi-saliency predictions. I was able to successfully port the original code in Caffe to Keras with 64% accuracy.</p>
+            </div>
+          </div>
+
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Respiratory Rate Estimation</h3>
+              <p>This project was focused on estimating the respiratory rate of an individual using accelerometer data, heart rate and body temperature. 3 different models were implemented separately for estimation: Ridge Regression, Neural Networks and Hidden Markov Model.</p>
+            </div>
+          </div>
+
+
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Foraminifera Image Segmentation</h3>
+              <p>Used Markov Random Field basd approach called Graph-Cut to segment the chambers of a Foraminifera(marine species) from its edge probability map. Segmented the chambers and the aperture in the Foraminifera images to identify different types of species.</p>
+            </div>
+          </div>
+
+
+     
+        </div>
+      </section>
+
+
+
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+        <div class="my-auto">
+          <h2 class="mb-5">Interests</h2>
+          <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
+          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
+        </div>
+      </section>
+
+      
     </div>
-  </nav>
-    <div class="intro">
-    <!-- <h1 align="center">Suraj Maniyar </h1> -->
-    <!-- <p align="center"><a target="_blank" href="http://github.com/suraj-maniyar">@suraj-maniyar</a></p> -->
-  </div>
-  <div class="container main_content">
-    <div id="about"></div>
-    <div id="education"></div>
-    <div id="skills"></div>
-    <div id="projects"></div>
-    <div id="contact"></div>
-  </div>
 
-  <div class="panel">
-    <div class="panel-footer" align="center">&#9400; Suraj Maniyar</div>
-  </div>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <script type="text/javascript">
-    $( document ).ready(function() {
-      $("#about").load("about.html");   
-      $("#education").load("education.html"); 
-      $("#skills").load("skills.html"); 
-      $("#projects").load("projects.html"); 
-      $("#contact").load("contact.html"); 
-    });
-  </script>
-</body>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  </body>
+
 </html>
